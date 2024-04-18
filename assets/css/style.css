@@ -14,10 +14,15 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Adding a border to ifentify to the main and make it as a logo*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    border-radius: 100px;
+    width: 210px;
+    height: 80px;
+    border: 5px solid beige;
+   
 }
 
 .header h1 .seo {
@@ -34,18 +39,32 @@ body {
 
 .header section ul {
     list-style-type: none;
+    
 }
 
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
+    
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+    height: 30px;
 }
-
+/* Adding a hover to highlight the link which a mouse pointer is over it*/
+a:hover{
+    background-color: aquamarine;
+    color: blue;
+    border:5px solid #d9dcd6;
+}
+/* Adding active link pseudo class to indicate the selected link*/
+a:active{
+   
+    color: mediumslateblue;
+    border:5px solid #d9dcd6;
+}
 p {
     font-size: 16px;
 }
@@ -187,7 +206,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Adding a background to the foot that similar to the header to have a compact and semantic website*/
 .footer {
     padding: 30px;
     clear: both;
